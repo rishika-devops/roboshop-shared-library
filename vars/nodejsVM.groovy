@@ -73,7 +73,7 @@ def call(Map configMap){
                       [artifactId: "${configMap.component}",
                        classifier: '',
                        file: "${configMap.component}.zip",
-                       type: 'jar']
+                       type: 'zip']
         ]
      )
             }
