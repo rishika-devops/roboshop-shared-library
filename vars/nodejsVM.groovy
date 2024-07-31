@@ -64,7 +64,7 @@ def call(Map configMap){
                 nexusArtifactUploader(
                    nexusVersion: 'nexus3',
                    protocol: 'http',
-                   nexusUrl: "${nexusURL}",
+                   nexusUrl: pipelineGlobals.nexusURL(),
                    groupId: 'com.roboshop',
                    version: "${packageversion}",
                    repository: "${configMap.component}",
