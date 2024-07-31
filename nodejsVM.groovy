@@ -7,7 +7,7 @@ def call(map configMap){
     }
     environment {
         packageversion = ''
-        nexusURL = '3.86.47.135:8081'
+    
     }
     //some crumb error is coming in deploy stage by adding deploy parameter
     options {
